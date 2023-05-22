@@ -1,5 +1,5 @@
-import Score from "../scoreboard/score.js";
-import Game from "../scoreboard/game.js";
+const Score = require("../scoreboard/score.js");
+const Game = require("../scoreboard/game.js");
 
 class GameCreationService {
   static run(homeTeam, awayTeam, homeTeamScore, awayTeamScore) {
@@ -10,4 +10,4 @@ class GameCreationService {
   }
 }
 
-export default GameCreationService;
+module.exports = GameCreationService;

@@ -1,7 +1,7 @@
-import assert from "assert";
-import ScoreBoard from "../../src/scoreboard/scoreboard.js";
-import GameCreationService from "../../src/services/game_creation_service.js";
-import Game from "../../src/scoreboard/game.js";
+const assert = require("assert")
+const ScoreBoard = require("../../src/scoreboard/scoreboard.js")
+const GameCreationService = require("../../src/services/game_creation_service.js")
+const Game = require("../../src/scoreboard/game.js")
 
 describe("ScoreBoard", () => {
   it("should create new scoreboard object", () => {

@@ -1,5 +1,5 @@
-import assert from "assert";
-import { generateID } from "../../src/utils/id.js"
+const assert = require("assert");
+const generateID = require("../../src/utils/id.js");
 
 describe("generateID", () => {
   it("generates unique string of characters each time", () => {

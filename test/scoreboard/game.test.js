@@ -1,6 +1,6 @@
-import Game from "../../src/scoreboard/game.js";
-import Score from "../../src/scoreboard/score.js";
-import assert from "assert";
+const Game = require("../../src/scoreboard/game.js");
+const Score = require("../../src/scoreboard/score.js");
+const assert = require("assert");
 
 describe("Game", () => {
   it("should create new game object with unique ID and starting date", () => {
