@@ -1,5 +1,5 @@
-import GameCreationService from "../services/game_creation_service.js";
-import GameSummaryService from "../services/game_summary_service.js";
+const GameCreationService = require("../services/game_creation_service.js");
+const GameSummaryService = require("../services/game_summary_service.js");
 
 class ScoreBoard {
   constructor(initialGames = []) {
@@ -22,4 +22,4 @@ class ScoreBoard {
   }
 }
 
-export default ScoreBoard;
+module.exports = ScoreBoard;

@@ -1,4 +1,4 @@
-import { generateID } from "../utils/id.js";
+const generateID = require("../utils/id.js");
 
 class Game {
   constructor(homeTeam, awayTeam, score) {
@@ -17,4 +17,5 @@ class Game {
     return this.score.total();
   }
 }
-export default Game;
+
+module.exports = Game;

@@ -10,4 +10,4 @@ class GameSummaryService {
   }
 }
 
-export default GameSummaryService;
+module.exports = GameSummaryService;

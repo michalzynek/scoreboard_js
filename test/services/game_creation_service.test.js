@@ -1,5 +1,5 @@
-import assert from "assert";
-import GameCreationService from "../../src/services/game_creation_service.js";
+const assert = require("assert")
+const GameCreationService = require("../../src/services/game_creation_service.js")
 
 describe("GameCreationService", () => {
   it("should create game based on the input data", () => {

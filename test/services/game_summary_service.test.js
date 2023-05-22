@@ -1,6 +1,6 @@
-import assert from "assert";
-import GameSummaryService from "../../src/services/game_summary_service.js";
-import GameCreationService from "../../src/services/game_creation_service.js";
+const assert = require("assert");
+const GameSummaryService = require("../../src/services/game_summary_service.js");
+const GameCreationService = require("../../src/services/game_creation_service.js");
 
 describe("GameSummaryService", () => {
   it("should sort games by score and starting date", () => {
