@@ -1,5 +1,5 @@
-const assert = require('assert').strict;
-const Score = require('../src/scoreboard/score');
+import assert from "assert";
+import Score from "../../src/scoreboard/score.js";
 
 describe("Score", () => {
   it("should create new score object", () => {

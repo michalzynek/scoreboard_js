@@ -1,5 +1,5 @@
 class Score {
-  constructor(initialHomeScore, initialAwayScore) {
+  constructor(initialHomeScore = 0, initialAwayScore = 0) {
     this.homeTeamScore = initialHomeScore;
     this.awayTeamScore = initialAwayScore;
   }
@@ -14,4 +14,4 @@ class Score {
   }
 }
 
-module.exports = Score;
+export default Score;

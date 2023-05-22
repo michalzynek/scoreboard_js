@@ -4,7 +4,7 @@
   "description": "JavaScript Library to run internal scoreboard",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --recursive --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   ],
   "author": "Michal Zynek",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/michalzynek/scoreboard_js/issues"
   },
