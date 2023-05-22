@@ -4,7 +4,7 @@
   "description": "JavaScript Library to run internal scoreboard",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/michalzynek/scoreboard_js/issues"
   },
-  "homepage": "https://github.com/michalzynek/scoreboard_js#readme"
+  "homepage": "https://github.com/michalzynek/scoreboard_js#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "request": "^2.88.2"
+  }
 }
