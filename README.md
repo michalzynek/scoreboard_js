@@ -63,7 +63,7 @@ If you want to unlink the package, you can do so by running the following comman
 1. In your project folder:
 
 ```bash
-In your project folder:
+npm unlink scoreboard
 ```
 
 2. In the scoreboard folder:
