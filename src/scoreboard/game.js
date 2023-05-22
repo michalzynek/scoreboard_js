@@ -5,8 +5,8 @@ class Game {
     this.id = generateID();
     this.homeTeam = homeTeam;
     this.awayTeam = awayTeam;
-    this.score = score
-    this.startedAt = new Date()
+    this.score = score;
+    this.startedAt = new Date();
   }
 
   updateScore(homeTeamScore, awayTeamScore) {
