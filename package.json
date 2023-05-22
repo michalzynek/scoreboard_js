@@ -1,0 +1,24 @@
+{
+  "name": "scoreboard_js",
+  "version": "1.0.0",
+  "description": "JavaScript Library to run internal scoreboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalzynek/scoreboard_js.git"
+  },
+  "keywords": [
+    "scoreboard",
+    "js",
+    "javascript"
+  ],
+  "author": "Michal Zynek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalzynek/scoreboard_js/issues"
+  },
+  "homepage": "https://github.com/michalzynek/scoreboard_js#readme"
+}
